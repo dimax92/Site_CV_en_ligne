@@ -1,0 +1,28 @@
+.divContenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 70%;
+    }
+    p {
+        margin: 10px;
+    }
+    .divCaracteristique {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px;
+        p {
+            margin: 5px;
+        }
+        .nomCaracteristique {
+            font-weight: bold;
+        }
+        .divJauge {
+            width: 95%;
+            height: 10px;
+            border: solid;
+        }
+    }
+}

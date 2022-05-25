@@ -1,0 +1,20 @@
+@import "./navigation.scss";
+@import "./login.scss";
+@import "./contenu.scss";
+@import "./formulaire.scss";
+@import "./inscription.scss";
+@import "./modification.scss";
+@import "./profil.scss";
+@import "./messages.scss";
+@import "./recherche.scss";
+@import "./accueil.scss";
+
+body {
+    margin: 0px;
+}
+input:focus-visible {
+    outline: none;
+}
+textarea:focus-visible {
+    outline: none;
+}

@@ -1,0 +1,65 @@
+.divRecherche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 40px;
+        margin: 20px 0px;
+        max-width: 400px;
+        input {
+            width: 70%;
+            border-radius: 10px 0px 0px 10px;
+            border: solid 0.1px black;
+        }
+        button {
+            width: 30%;
+            border-radius: 0px 10px 10px 0px;
+            border: none;
+            background: black;
+            color: white;
+            font-weight: bold;
+            font-size: 80%;
+            cursor: pointer;
+        }
+    }
+    .divMap {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        a {
+            width: 90%;
+            max-width: 220px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid 0.1px #00000026;
+            border-radius: 10px;
+            height: 250px;
+            text-decoration: none;
+            justify-content: space-between;
+            margin: 20px;
+            p {
+                margin: 10px 0px;
+                font-size: 20px;
+                font-weight: bold;
+                color: black;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 95%;
+                text-align: center;
+            }
+            img {
+                max-height: 80%;
+                width: 100%;
+                border-radius: 0px 0px 10px 10px;
+                object-fit: cover;
+            }
+        }
+    }
+}
